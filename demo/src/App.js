@@ -5,10 +5,10 @@ export default function App() {
     return (
         <div className="App">
             <CustomAnimatedCursor
-                // dotColor={}
-                // polyLineColor={}
-                // dotSize={8}
-                // dotSpeed={2}
+            // dotColor={}
+            // polyLineColor={}
+            // dotSize={8}
+            // dotSpeed={2}
             />
             <div>
                 <p>TEXT TEST</p>
@@ -40,6 +40,16 @@ export default function App() {
                     <option>SELECTBOX TEST 1</option>
                     <option>SELECTBOX TEST 2</option>
                 </select>
+                <div
+                    id="hover-box"
+                    style={{
+                        color: "#fff",
+                        padding: "30px",
+                        background: "blue",
+                    }}
+                >
+                    Hover Box
+                </div>
             </div>
         </div>
     );
