@@ -101,7 +101,7 @@ export default function App() {
 
 ## Notes
 
--   [DFY](https://www.dfy.co.kr/)의 커서를 React 버전으로 만들어보고 싶어서 [react-animated-cursor](https://github.com/stephenscaff/react-animated-cursor)를 참고하여 제작하였습니다.
+-   [DFY](https://www.dfy.co.kr/)의 커서를 React 버전으로 만들어보고 싶어서 [react-animated-cursor](https://github.com/stephenscaff/react-animated-cursor)와 [DFY](https://www.dfy.co.kr/)를 참고하여 제작하였습니다.
 -   공부 겸 지속적인 유지보수 및 개선을 해보고 싶어서 오픈소스의 형태로 제작하였습니다.
 -   버그, 이슈, 리팩토링 등 다양한 피드백 환영합니다.
 
