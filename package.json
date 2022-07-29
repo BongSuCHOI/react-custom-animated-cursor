@@ -6,8 +6,8 @@
     "homepage": "https://github.com/BongSuCHOI/react-custom-animated-cursor",
     "scripts": {
         "dev": "webpack serve --open",
-        "build": "webpack --config webpack.config.js",
-        "deploy": "gh-pages -d build"
+        "predeploy": "webpack --config webpack.config.js",
+        "deploy": "gh-pages -d dist"
     },
     "author": "",
     "license": "ISC",
