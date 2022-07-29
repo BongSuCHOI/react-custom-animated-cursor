@@ -28,7 +28,7 @@
 
 ## Demo
 
-[Live Demo](https://stephenscaff.github.io/react-animated-cursor/)
+[Live Demo](https://bongsuchoi.github.io/react-custom-animated-cursor/)
 
 <br/>
 
