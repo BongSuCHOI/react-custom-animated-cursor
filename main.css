@@ -1,0 +1,109 @@
+/*!***************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./lib/CustomAnimatedCursor.module.css ***!
+  \***************************************************************************************/
+.rg4eK4ItCFL_nDmjGGh0 {
+    z-index: 1500;
+    position: relative;
+    height: 0;
+}
+
+.zjoqzmOS6ONcR6uVO8h5 {
+    z-index: 1;
+    opacity: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transition: opacity 0.5s;
+}
+
+.zjoqzmOS6ONcR6uVO8h5.JEiqwWrSmb_yAD9BHB37 {
+    opacity: 1;
+}
+
+.oXlofagGzVqbZcuGYI8V {
+    transition: opacity 0.2s;
+}
+
+.natGRRRYa9Z1UXilzPBH {
+    fill: none;
+    transition: opacity 0.2s;
+}
+
+.MalEbBu1njJATQqe_NPB {
+    z-index: 5;
+    opacity: 0;
+    transition: opacity 0.2s, r 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+    r: 0;
+}
+
+.rg4eK4ItCFL_nDmjGGh0.MJ4vmnlM2hUOExAsujbI {
+    mix-blend-mode: difference;
+}
+
+.rg4eK4ItCFL_nDmjGGh0.lsSHP5yZrcTxiYqfKrj6 .oXlofagGzVqbZcuGYI8V,
+.rg4eK4ItCFL_nDmjGGh0.lsSHP5yZrcTxiYqfKrj6 .natGRRRYa9Z1UXilzPBH {
+    opacity: 0;
+}
+
+.rg4eK4ItCFL_nDmjGGh0.lsSHP5yZrcTxiYqfKrj6 .MalEbBu1njJATQqe_NPB {
+    opacity: 1;
+}
+
+/*!***********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./demo/src/DemoContent.module.css ***!
+  \***********************************************************************************/
+.vl7lo7ipFqXoKsKuSm67 {
+    min-height: 100vh;
+    background-color: #0d1117;
+}
+
+.mcD9RJFHYH3vq5EWpZZd {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.P2nz3HTuqXHN92LApqWz {
+    margin: 0;
+    padding: 120px 0 60px;
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+}
+
+.RFForCGzyX9jRTK3FUIP {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 40px 0;
+}
+
+.RFForCGzyX9jRTK3FUIP a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.RFForCGzyX9jRTK3FUIP i {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.dA5siEWoRel5uIjBtxiv li {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.dA5siEWoRel5uIjBtxiv li:last-child {
+    margin-bottom: 0;
+}
+
+.dA5siEWoRel5uIjBtxiv li a {
+    color: #fff;
+}
+
+.dA5siEWoRel5uIjBtxiv li div {
+    padding: 40px;
+    text-align: center;
+    background-image: linear-gradient(135deg, #c2ffd8 10%, #465efb 100%);
+    color: #000;
+}
+
