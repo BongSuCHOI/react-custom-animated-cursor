@@ -1,0 +1,51 @@
+.wrap {
+    min-height: 100vh;
+    background-color: #0d1117;
+}
+
+.con {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.h1 {
+    margin: 0;
+    padding: 120px 0 60px;
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+}
+
+.p {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 40px 0;
+}
+
+.p a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.p i {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.ul li {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.ul li:last-child {
+    margin-bottom: 0;
+}
+
+.ul li a {
+    color: #fff;
+}
+
+.ul li div {
+    padding: 40px;
+    text-align: center;
+    background-image: linear-gradient(135deg, #c2ffd8 10%, #465efb 100%);
+    color: #000;
+}

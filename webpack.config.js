@@ -1,5 +1,7 @@
 const path = require("path");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
@@ -14,8 +16,12 @@ module.exports = {
         extensions: [".js", ".jsx"],
     },
     plugins: [
+        new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             template: `./demo/public/index.html`,
+        }),
+        new MiniCssExtractPlugin({
+            filename: "[name].css?[hash]",
         }),
     ],
     optimization: {
@@ -32,6 +38,10 @@ module.exports = {
     },
     module: {
         rules: [
+            {
+                test: /\.((c|sa|sc)ss)$/i,
+                use: [MiniCssExtractPlugin.loader, "css-loader"],
+            },
             {
                 test: /\.m?js$/,
                 exclude: /(node_modules|bower_components)/,
