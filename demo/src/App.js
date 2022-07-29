@@ -41,7 +41,7 @@ export default function App() {
                     <option>SELECTBOX TEST 2</option>
                 </select>
                 <div
-                    id="hover-box"
+                    className="c-cursor-hover"
                     style={{
                         color: "#fff",
                         padding: "30px",
